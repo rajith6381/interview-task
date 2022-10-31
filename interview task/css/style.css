@@ -1,0 +1,219 @@
+.container1{
+    width: 65%;
+    margin: auto;
+}
+.container2{
+    width:95%;
+    margin:auto;
+}
+/*fonts*/
+@font-face {
+    font-family: "rajith";
+    src: url(../fonts/FuturaBT-Medium.ttf);
+}
+@font-face {
+    font-family:"futura-bold";
+    src: url(../fonts/Futura\ Bold.ttf);
+}
+@font-face {
+    font-family:"futura-book";
+    src: url(../fonts/Futura\ Book.ttf);
+}
+@font-face {
+    font-family:"futurastd-book";
+    src: url(../fonts/Futura\ Std\ Book.ttf);
+}
+@font-face {
+    font-family:"futurastd-heavy";
+    src: url(../fonts/Futura\ Std\ Heavy.ttf);
+}
+@font-face {
+    font-family:"futura-thin";
+    src: url(../fonts/Futura\ Thin.ttf);
+}
+/*navication*/
+.nlink{
+    font-size: 0.7em;
+    font-family:"rajith";
+    font-weight:600;
+}
+.nlink a:hover{
+    color: #1B82E8;
+}
+
+
+@media(min-width:390px){
+.logo{
+        width:40%;
+    }
+}
+@media(min-width:1024px){
+    .logo{
+        width: 20%;
+    }
+}
+.logo:hover{
+    cursor: pointer;
+}
+/*baner*/
+.baneri{
+    background-size: cover;
+    
+    height: 70vh;
+}
+.cock{
+    width:10%;
+}
+/*about*/
+.abouti p{
+    padding-top: 0.9rem;
+    font-family:"rajith";
+    color:#ABB2B9 ;
+}
+.aboutc h4{
+    font-family:"rajith";
+}
+.aboutc p{
+    font-family:"futurastd-book";
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+}
+.aboutc button{
+    font-family:"futurastd-book";
+}
+
+.aboutc button:hover{
+    background-color:#1B82E8;
+}
+/*about cont*/
+.vision{
+    width: 80%;
+    background-color: #DE3163;
+    box-shadow: 30px -30px 3px rgb(230, 224, 224);
+}
+.vision h3,p{
+    font-family:"futura-book";
+}
+/*cord*/
+.cardhead h3{
+    font-family: "rajith";
+}
+.cordhead{
+    text-align: center;
+}
+.cock2{
+    width:5%;
+}
+.cord{
+    background-color: aqua;
+    background: linear-gradient(#EBEDEF  ,white);
+}
+.cordb{
+    border: none;
+}
+.textp{
+    font-size: 0.9rem;
+    font-family: "rajith";
+    color: #9a9fa4;
+}
+.texth{
+    font-size: 0.9rem;
+    font-family: "rajith";
+}
+.texts{
+    font-size: 0.7rem;
+    font-family: "rajith";
+    padding-bottom: 2rem;
+    color: #9a9fa4;
+}
+.cb button{
+    font-family: "rajith";
+}
+.cb button:hover{
+    background:#1B82E8;
+}
+.logohead{
+    text-align: center;
+}
+.logoh{
+    width: 5%;
+}
+.textr{
+    font-family:"futura-thin";
+    font-size:2rem;
+    font-weight: 600;
+}
+.gray img{
+    filter: grayscale(100%);
+}
+.gray img:hover{
+    filter: none;
+}
+.gray span img{
+    filter: none;
+}
+.gray span img:hover{
+    filter: grayscale(100%);
+}
+.logohead button{
+    font-family: "rajith"; 
+}
+.logohead button:hover{
+    background:#1B82E8;
+}
+.locat h6{
+    font-family:"rajith";
+    display: inline-block;
+    margin-bottom: 22px;
+}
+/*footer*/
+footer{
+    background-color:#2C3E50;
+    color: #EBEDEF;
+}
+.locat span{
+    font-size: 0.7rem;
+    font-family:"rajith";
+    margin-top: 10px;
+}
+.locat p{
+    font-size: 0.7rem;
+    font-family:"rajith";
+}
+.line1::after{
+    content: "";
+	width:50px;
+	height:2px;
+	background:#ABB2B9;
+	position:relative;
+    top:8px;
+	left:-5px;
+	bottom:0;
+	right: 0;
+	margin: auto;
+	display: flex;
+}
+.end{
+    font-size: 0.7rem;
+    font-family:"rajith";
+    background-color:#2C3E50;
+    color: #EBEDEF;
+    border-top:1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.end span:hover{
+    color: #1B82E8;
+    cursor: pointer;
+}
+footer span:hover{
+     color:#1B82E8;
+     cursor: pointer;
+}
+footer p:hover{
+    color:#1B82E8;
+    cursor: pointer;
+}
+.ficon i:hover{
+    color:#1B82E8;
+}
